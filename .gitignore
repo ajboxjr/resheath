@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+.archive/
+Archive.zip
+design/
+assets/*
+!assets/logo.svg
+!assets/photo-front-and-adhesive.webp
