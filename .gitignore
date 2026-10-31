@@ -6,3 +6,4 @@ design/
 assets/*
 !assets/logo.svg
 !assets/photo-front-and-adhesive.webp
+!assets/card-front.svg

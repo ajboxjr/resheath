@@ -1,163 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0a3053">
-  <title>ReSheath</title>
-  <meta name="description" content="A simple card you seal yourself to give a loose gold bar a proper home. Coming soon. Join the email list to hear when it's ready.">
-  <meta property="og:title" content="ReSheath">
-  <meta property="og:description" content="A simple card you seal yourself to give a loose gold bar a proper home. Coming soon.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://resheath.com">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <style>
-    :root {
-      color-scheme: dark;
-      --navy: #0a3053;
-      --deep: #07233f;
-      --gold: #ffd056;
-      --white: #faf8f4;
-      --muted: #c3d0dc;
-      --line: rgba(250, 248, 244, .2);
-      --serif: Georgia, "Times New Roman", serif;
-      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      --gutter: clamp(20px, 5vw, 48px);
-    }
-
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--navy); color: var(--white); font: 400 1.0625rem/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
-    img { display: block; max-width: 100%; height: auto; }
-    a { color: inherit; }
-    h1, h2, p, figure { margin: 0; }
-    :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-
-    .wrap { width: min(1040px, 100%); margin-inline: auto; padding-inline: var(--gutter); }
-
-    .brand { display: inline-flex; align-items: center; gap: 10px; padding-block: 20px; font: 400 1.5rem/1 var(--serif); text-decoration: none; }
-    .brand img { width: 20px; height: 42px; }
-
-    .intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 72px); align-items: center; padding-block: clamp(24px, 5vw, 56px) clamp(48px, 7vw, 80px); }
-    .soon { font-weight: 600; color: var(--gold); }
-    h1 { margin-top: 6px; font: 400 clamp(2.75rem, 6vw, 4.25rem)/1.05 var(--serif); letter-spacing: -.02em; }
-    h1 span { color: var(--gold); }
-    .story { display: grid; gap: 12px; margin-top: 20px; max-width: 30em; color: var(--muted); }
-
-    .signup { margin-top: 28px; max-width: 30em; }
-    .signup label { display: block; margin-bottom: 8px; font-weight: 600; }
-    .signup-row { display: flex; flex-wrap: wrap; gap: 8px; }
-    .signup input[type="email"] { flex: 1 1 200px; min-width: 0; padding: 12px 14px; border: 1px solid var(--white); border-radius: 4px; background: var(--white); color: #0a2239; font: inherit; }
-    .signup button { flex: 0 0 auto; padding: 12px 20px; border: 0; border-radius: 4px; background: var(--gold); color: #0a2239; font: 700 1rem/1.6 var(--sans); cursor: pointer; }
-    .signup button:hover { background: #ffdf8a; }
-    .signup button:disabled { opacity: .6; cursor: default; }
-    .trap { position: absolute; left: -9999px; }
-    .signup-note { margin-top: 8px; font-size: .875rem; color: var(--muted); }
-    .signup-status { margin-top: 8px; min-height: 1.6em; font-weight: 600; color: var(--gold); }
-
-    .intro figure img { border-radius: 4px; }
-    .intro figcaption { margin-top: 8px; font-size: .875rem; color: var(--muted); }
-
-    .more { background: var(--deep); padding-block: 40px; }
-    .facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px clamp(24px, 4vw, 48px); }
-    .facts h2 { margin-bottom: 4px; font: 600 1rem/1.4 var(--sans); color: var(--gold); }
-    .facts p { color: var(--muted); }
-    .fine { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .875rem; color: var(--muted); max-width: 72ch; }
-    .site-footer { background: var(--deep); padding-block: 0 28px; font-size: .875rem; color: var(--muted); }
-
-    @media (max-width: 780px) {
-      .intro, .facts { grid-template-columns: minmax(0, 1fr); }
-    }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#092c4f">
+<title>ReSheath — Your Metals (Re)Protected</title>
+<meta name="description" content="ReSheath gives loose 1g gold bars a new home. Premium self-assembly protective cards. Coming soon.">
+<meta property="og:title" content="ReSheath — Coming Soon"><meta property="og:description" content="Your Metals (Re)Protected. Premium protective cards for loose 1g gold bars.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+:root{color-scheme:dark;--navy:#092c4f;--deep:#061b34;--gold:#f5c759;--white:#f9f7f2;--muted:#b1c1d1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);color:var(--white);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}img{max-width:100%;display:block}
+.shell{width:min(1100px,100%);margin:auto;padding-inline:clamp(20px,5vw,52px)}.mast{position:absolute;top:0;left:0;right:0;z-index:4}.mast-inner{display:flex;justify-content:space-between;align-items:center;padding-top:clamp(18px,4vw,30px)}.brand{display:flex;align-items:center;gap:9px;text-decoration:none;font-family:Georgia,serif;font-size:clamp(1.35rem,3vw,1.65rem)}.brand img{width:22px;height:38px}.top-link{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+.hero{min-height:100svh;display:grid;place-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 51% 46%,#164974 0%,#0c345b 36%,#082744 75%,#061b32 100%);padding:90px 0 48px}.hero:after{content:"";position:absolute;inset:auto 0 0;height:22%;background:linear-gradient(transparent,rgba(3,17,32,.18));pointer-events:none}
+.hero-inner{width:100%;display:grid;grid-template-columns:1fr .8fr;gap:clamp(12px,5vw,80px);align-items:center;position:relative;z-index:1}.eyebrow{color:var(--gold);font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;font-weight:700;margin:0 0 17px}.hero h1{font:400 clamp(3.1rem,7.2vw,6.7rem)/.96 Georgia,'Times New Roman',serif;letter-spacing:-.055em;margin:0;max-width:650px}.hero h1 span{color:var(--gold)}.sub{color:var(--muted);max-width:410px;line-height:1.65;font-size:clamp(.97rem,1.7vw,1.12rem);margin:22px 0 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 21px;border-radius:5px;background:var(--gold);border:1px solid var(--gold);color:#082947;text-decoration:none;font-weight:700;font-size:.9rem}.btn.secondary{background:transparent;border-color:#52718c;color:var(--white)}.tagline{font-family:Georgia,serif;font-size:1rem;margin:24px 0 0;color:var(--white)}.tagline em{color:var(--gold);font-style:normal}
+.visual{position:relative;min-width:0;width:min(100%,350px);justify-self:center;filter:drop-shadow(0 32px 30px rgba(0,8,19,.48));animation:float 6s ease-in-out infinite}.visual>img{width:100%;height:auto}.bar{position:absolute;left:44.02%;top:48.16%;width:11.86%;height:13.86%;border-radius:8%;background:linear-gradient(130deg,#fff1b2,#ddab42 46%,#a87618 70%,#ffdf75);box-shadow:inset 0 0 0 1px #fff0ae7a,0 1px 4px #02132680;pointer-events:none}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-11px) rotate(-1deg)}}
+.below{background:var(--deep);padding:52px 0 55px;border-top:1px solid #ffffff15}.below-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:42px;align-items:start}.below h2{font:400 clamp(1.9rem,4vw,3rem)/1.12 Georgia,serif;margin:0 0 14px}.below p{color:var(--muted);line-height:1.75;margin:0}.facts{display:grid;gap:12px}.fact{padding:14px 0;border-bottom:1px solid #ffffff26;display:flex;justify-content:space-between;gap:18px;font-size:.91rem}.fact strong{font-weight:600;color:var(--gold)}.fact span{color:#d7e0e9;text-align:right}.fine{font-size:.78rem!important;margin-top:18px!important;line-height:1.6!important}.footer{border-top:1px solid #ffffff22;background:var(--deep);text-align:center;padding:20px;color:var(--muted);font-size:.8rem}
+@media(max-width:720px){.hero{padding-top:88px;padding-bottom:30px;min-height:100svh}.hero-inner{grid-template-columns:1fr;gap:4px;text-align:center}.eyebrow{margin-bottom:12px}.hero h1{font-size:clamp(2.7rem,11.2vw,4.2rem);letter-spacing:-.06em}.sub{font-size:.92rem;line-height:1.48;margin:12px auto 0;max-width:340px}.visual{grid-row:1;width:min(43vw,184px);margin:auto;animation-duration:7s}.tagline{margin-top:14px;font-size:.88rem}.actions{justify-content:center;margin-top:18px}.btn{min-height:46px}.mast-inner{padding-top:14px}.below{padding:39px 0}.below-grid{grid-template-columns:1fr;gap:22px}}@media(max-width:390px){.hero{padding-top:73px;padding-bottom:16px}.visual{width:min(35vw,138px)}.hero h1{font-size:2.65rem}.sub{font-size:.87rem}.eyebrow{font-size:.61rem}.actions{margin-top:14px}.tagline{margin-top:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.visual{animation:none}}
+</style>
 </head>
 <body>
-  <header class="wrap">
-    <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="20" height="42">ReSheath</a>
-  </header>
-
-  <main id="top">
-    <section class="wrap intro">
-      <div>
-        <p class="soon">Coming soon</p>
-        <h1>Your Gold.<br><span>ReSheathed.</span></h1>
-        <div class="story">
-          <p>Small gold bars don't always stay in their original packaging, and a loose bar tends to end up in a bag or a drawer.</p>
-          <p>ReSheath is a simple card you seal yourself, so a loose bar has a proper home again. Leave your email and we'll let you know when it's ready.</p>
-        </div>
-        <form class="signup" id="signup">
-          <label for="email">Get an email when we launch</label>
-          <div class="signup-row">
-            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
-            <button type="submit">Notify me</button>
-          </div>
-          <input class="trap" type="text" name="_gotcha" id="company" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <p class="signup-note">We'll only use your email for ReSheath news.</p>
-          <p class="signup-status" id="signup-status" role="status"></p>
-        </form>
-      </div>
-      <figure>
-        <img src="assets/photo-front-and-adhesive.webp" width="965" height="740" alt="Photo of the printed ReSheath card front with its clear blister, next to the adhesive layer" fetchpriority="high">
-        <figcaption>The 1 g card before it's put together.</figcaption>
-      </figure>
-    </section>
-
-    <section class="more">
-      <div class="wrap">
-        <div class="facts">
-          <div>
-            <h2>How it works</h2>
-            <p>Set your bar in the clear blister, line up the adhesive back, and press to seal.</p>
-          </div>
-          <div>
-            <h2>Sizes</h2>
-            <p>The 1 g card comes first. We're planning 2.5 g, 5 g, 10 g, and 20 g after that.</p>
-          </div>
-          <div>
-            <h2>When</h2>
-            <p>We don't have a date yet. Everyone on the email list will hear first.</p>
-          </div>
-        </div>
-        <p class="fine">Gold bar not included. Fit varies by bar dimensions. ReSheath does not authenticate gold or replace original mint assay packaging.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">&copy; <span id="year">2026</span> ReSheath. Your Metals (Re)Protected.</div>
-  </footer>
-
-  <script>
-    // Paste your form URL here (for example from Formspree) to start collecting emails.
-    const SIGNUP_ENDPOINT = '';
-
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    const form = document.getElementById('signup');
-    const status = document.getElementById('signup-status');
-
-    form.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      if (!SIGNUP_ENDPOINT) {
-        status.textContent = "Our email list isn't open yet, so your email wasn't saved. Please check back soon.";
-        return;
-      }
-      const button = form.querySelector('button');
-      button.disabled = true;
-      status.textContent = 'Adding you…';
-      try {
-        const response = await fetch(SIGNUP_ENDPOINT, {
-          method: 'POST',
-          headers: { Accept: 'application/json' },
-          body: new FormData(form),
-        });
-        if (!response.ok) throw new Error(response.statusText);
-        form.reset();
-        status.textContent = "You're on the list. Thanks!";
-      } catch {
-        status.textContent = "That didn't go through. Please try again.";
-      } finally {
-        button.disabled = false;
-      }
-    });
-  </script>
-</body>
-</html>
+<header class="mast"><div class="shell mast-inner"><a class="brand" href="#top"><img src="assets/logo.svg" width="22" height="38" alt="">ReSheath</a><a class="top-link" href="#details">The product</a></div></header>
+<main id="top">
+<section class="hero" aria-labelledby="headline"><div class="shell hero-inner">
+<div class="content"><p class="eyebrow">Introducing ReSheath · Coming Soon</p><h1 id="headline">Your Gold.<br><span>ReSheathed.</span></h1><p class="sub">A new home for loose 1g gold bars. Protect, organize, and present your gold in a premium self-assembly card.</p><div class="actions"><a class="btn" href="#details">Discover ReSheath</a></div><p class="tagline">Your Metals <em>(Re)</em>Protected.</p></div>
+<div class="visual" aria-label="ReSheath 1 gram protective card product artwork"><img src="assets/card-front.svg" alt="ReSheath navy and gold 1 gram protective card with sword hilt and shield artwork" width="995" height="1580" fetchpriority="high"><div class="bar" aria-hidden="true"></div></div>
+</div></section>
+<section class="below" id="details"><div class="shell below-grid"><div><p class="eyebrow">Designed for your collection</p><h2>Loose gold deserves a better home.</h2><p>When original packaging is missing or damaged, ReSheath offers a clean way to hold and present your gold. Place a compatible 1g bar in the clear cavity, align the adhesive-backed card, and press to seal.</p></div><div class="facts"><div class="fact"><strong>FIRST RELEASE</strong><span>1g gold bar card</span></div><div class="fact"><strong>FORMAT</strong><span>Self-assembly · adhesive closure</span></div><div class="fact"><strong>AVAILABILITY</strong><span>Coming soon</span></div><p class="fine">Gold bar not included. Compatibility varies by bar dimensions. ReSheath does not authenticate gold or replace original mint assay certification.</p></div></div></section>
+</main><footer class="footer">© <span id="year">2026</span> ReSheath · Your Metals (Re)Protected · resheath.com</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
