@@ -4,8 +4,8 @@ This is a static GitHub Pages site. Upload `index.html`, `favicon.svg`, and the 
 
 Features: mobile-first full-viewport splash hero, original ReSheath vector card artwork, subtle floating movement (disabled for visitors who prefer reduced motion), streamlined product details, no front/back gallery.
 
-## Connect subscriptions (required before launch)
-The subscribe form saves nothing until it has somewhere to send emails. Create a form at a service such as Formspree, paste its URL into `SUBSCRIBE_ENDPOINT` in `index.html`, and submit a test.
+## Subscriptions
+The subscribe form sends emails and chosen sizes to Formspree. The form URL is `SUBSCRIBE_ENDPOINT` in `index.html`.
 
 ## Adding your product video later
 Export a compressed, muted, looping MP4/WebM from Spline or Blender. Add it under `assets/` and replace the `.visual` image container with a video element using `autoplay muted loop playsinline poster="assets/..."`. Keep a static poster image for slower connections and reduced-motion visitors.

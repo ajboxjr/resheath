@@ -45,8 +45,8 @@ flip.addEventListener('click',()=>{
   flip.setAttribute('aria-label',back?'ReSheath card, back side. Flip to see the front.':'ReSheath card, front side. Flip to see the back.');
   document.querySelectorAll('#flip-hint span').forEach((hint)=>{hint.textContent=hint.textContent.replace(back?'flip it':'see the front',back?'see the front':'flip it')});
 });
-// Paste your form URL here (for example from Formspree) to start collecting emails.
-const SUBSCRIBE_ENDPOINT='';
+// Subscribe form submissions go to Formspree.
+const SUBSCRIBE_ENDPOINT='https://formspree.io/f/mzeeaklb';
 const subscribe=document.getElementById('subscribe');
 const subStatus=document.getElementById('sub-status');
 subscribe.addEventListener('submit',async(event)=>{
